@@ -1,0 +1,98 @@
+.Levelup-section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+
+}
+
+.Levelup-section h1 {
+    font-size: 50px;
+    font-weight: 200;
+    color: #3c3a3a;
+}
+
+.Levelup-card1 {
+    width: 90%;
+    height: 350px;
+    position: relative;
+
+
+}
+
+.Levelup-card1 img {
+    position: absolute;
+    width: 300px;
+    z-index: -1;
+    right: 10px;
+    top: 50px
+}
+
+.Levelup-card1 li {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    left: 110px;
+    top: 90px;
+}
+
+.Levelup-card1 li>h1 {
+    font-size: 35px;
+}
+
+.Levelup-card1 li>p {
+    font-size: 18px;
+    color: #3c3a3a;
+    width: 320px;
+}
+
+.Levelup-card2 {
+    width: 90%;
+    height: 350px;
+    background-image: url("https://www1.bac-assets.com//homepage/spa-assets/images/mb_yni_bb_3034668_1440-4d2b065272ea1845378f.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-left-radius: 40%;
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 20px;
+    align-items: center;
+}
+
+.Levelup-card2 li>h3 {
+    width: 360px;
+    font-size: 35px;
+    color: white;
+    font-weight: 200;
+}
+
+.Levelup-card2 li a {
+    padding: 15px 35px;
+    font-size: 18px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 30px;
+    width: fit-content;
+    transition: all ease .3s;
+}
+
+.Levelup-card2 li a:hover {
+    background-color: rgba(0, 255, 255, 0.803);
+}
+
+.Levelup-card2 li {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.Levelup-card2 img {
+    width: 450px;
+}

@@ -1,0 +1,90 @@
+header {
+    width: 100%;
+    height: 600px;
+    background: url("https://img.freepik.com/premium-photo/gray-background-with-nothing-gradient_997534-16483.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    gap: 30px;
+    overflow: hidden;
+}
+/* linear-gradient(black,rgb(186, 47, 186) ,purple) */
+.Headecomo-div {
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: start;
+    border-radius: 20px;
+    background-color: white;
+    gap: 10px;
+
+}
+
+.Headecomo-div p {
+    font-weight: 100;
+}
+
+.Container-Headcomo {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+
+}
+
+
+.card-credit .card {
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 10px;
+    transition: all ease .5s;
+}
+
+.card-credit {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card:hover {
+    border-radius: 10px;
+    background-color: #e8e1e1;
+
+}
+
+.card-credit h2 {
+    font-size: 13px;
+    font-weight: 550;
+}
+
+.card-credit p {
+    color: #585555;
+    font-size: 13px;
+    width: 220PX;
+    position: relative;
+}
+
+.card-credit a {
+    font-size: 14px;
+    color: #F27D1E;
+}
+
+.card-credit img {
+    width: 40px;
+    height: 40px;
+
+}
+

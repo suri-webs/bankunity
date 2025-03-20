@@ -1,0 +1,308 @@
+.CreditCArd-slide-container {
+    width: 85%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.Get-yourcard {
+    width: 200px;
+    height: 160px;
+    display: flex;
+    align-items: start;
+    border-radius: 15px;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px;
+    transition: all ease .5s;
+
+}
+
+.Get-yourcard:hover {
+    background: rgba(93, 92, 92, 0.238);
+
+}
+
+.Get-yourcard:hover .h2one {
+    position: relative;
+    left: 20px;
+
+}
+
+
+.fa-hand-holding {
+    display: flex;
+    font-size: 35px;
+    color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.h2one {
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    font-weight: 200;
+
+
+
+}
+
+.Get-yourcard h1 {
+    font-size: 19px;
+    color: rgb(255, 255, 255);
+}
+
+.fa-wifi {
+    position: absolute;
+    right: 10px;
+    transform: rotatez(90deg);
+    font-size: 18px;
+    color: #585555;
+    top: 10px;
+
+}
+
+.fawifi1 {
+    position: absolute;
+    right: 10px;
+    transform: rotatez(90deg);
+    font-size: 18px;
+    color: white;
+    top: 10px;
+
+}
+
+.scale p {
+    position: absolute;
+    font-size: 12px;
+    font-weight: 550;
+    color: #585555;
+    left: 67px;
+    top: 90px;
+
+}
+
+.fa-handshake-simple {
+    position: absolute;
+    left: 110px;
+    top: 60px;
+    color: #626767;
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.creditcard1 {
+    width: 250px;
+    height: 160px;
+    border-radius: 15px;
+    background: url("https://img.freepik.com/free-vector/red-curve-gray-background_53876-99542.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    transition: all ease .5s;
+    animation: slide 2.5s 1 linear;
+}
+
+@keyframes slide {
+    from {
+    right: -1200px;
+       
+
+    }
+
+    to {
+       right: 0;
+    }
+}
+
+.creditcard2 {
+    width: 250px;
+    height: 160px;
+    border-radius: 15px;
+    background: url("https://img.freepik.com/premium-photo/contemporary-white-gray-background-versatile-presentations-posters-templates_1086261-592.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    transition: all ease .5s;
+    animation: slide 3s 1 linear;   
+
+
+}
+
+.creditcard3 {
+    width: 250px;
+    height: 160px;
+    border-radius: 15px;
+    background: url("https://i.pinimg.com/1200x/e3/d4/40/e3d4406d8ae376206f3b4ea6bfe8f308.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    transition: all ease .5s;
+    animation: slide 3.5s 1 linear;
+
+
+
+}
+
+.creditcard4 {
+    width: 250px;
+    height: 160px;
+    border-radius: 15px;
+    background: url("https://img.freepik.com/premium-vector/graduation_1318093-12599.jpg?semt=ais_hybrid");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    transition: all ease .5s;
+    animation: slide 4s 1 linear;
+
+
+
+}
+
+.scale:hover {
+    scale: 1.05;
+}
+
+.chip-image {
+    position: absolute;
+    width: 30px;
+    top: 40px;
+    left: 20px;
+}
+
+.visa-image {
+    position: absolute;
+    width: 45px;
+    bottom: 10px;
+    right: 10px;
+}
+
+.center {
+    width: 120px;
+    position: absolute;
+    left: 70px;
+    top: 60px;
+}
+
+.reciling {
+    width: 20px;
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+}
+
+
+.creditcard-details-container {
+    display: flex;
+    gap: 30px;
+}
+
+.Headecomo-div1 {
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.Grow-stock-container {
+    display: flex;
+    flex-wrap: wrap;
+
+    gap: 15px;
+
+}
+
+.card1 img {
+    width: 40px;
+}
+
+.card1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px;
+    gap: 8px;
+}
+
+.card1 p {
+    font-size: 12px;
+    width: 100px;
+}
+
+.Headecomo-div2 {
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 20px;
+    padding: 20px;
+    background-color: white;
+}
+
+.Headecomo-div2 .fa-phone {
+    color: #F27D1E;
+    font-size: 20px;
+
+
+}
+
+.Headecomo-div2 p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #252424;
+
+}
+
+.Headecomo-div2-anker1 {
+    font-size: 18px;
+    color: rgb(83, 83, 198);
+    font-weight: 600;
+}
+
+.Headecomo-div2-anker2 {
+    display: flex;
+    font-size: 14px;
+    gap: 10px;
+    font-weight: 600;
+    color: #585555;
+
+}
+
+.Headecomo-div2-anker2 img {
+    width: 40px;
+}
