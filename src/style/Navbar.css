@@ -7,7 +7,7 @@ nav {
     gap: 30px;
     padding-inline: 40px;
     padding-block: 10px;
-    background-color: #5a5b5d;
+    background-color: #373535;
 }
 
 
@@ -222,7 +222,7 @@ img {
 .login {
     width: 350px;
     height: 380px;
-    background-color: #FF464A;
+    background:linear-gradient(135deg, #af11cb, #25dffc);
     position: absolute;
     right: 50px;
     top: 150px;

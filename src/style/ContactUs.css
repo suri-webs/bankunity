@@ -1,10 +1,10 @@
 .contactus-container {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, #2575fc, #6a11cb);
+    background: linear-gradient(135deg, #af11cb, #25dffc);
     color: white;
     font-family: 'Arial', sans-serif;
 }
@@ -57,7 +57,6 @@
     padding: 10px;
     border: none;
     border-radius: 5px;
-    background: rgba(255, 255, 255, 0.2);
     color: white;
 }
 

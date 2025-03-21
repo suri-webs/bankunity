@@ -45,7 +45,6 @@ export const AppRouter = createBrowserRouter([
             { path: "payment", element: <PaymentsPage /> },
             { path: "credit-cards", element: <CreditCardPage /> },
             { path: "loan-details", element: <LoanDetailsPage /> },
-
             // Sub-routes for specific pages
             { path: "account/savings", element: <ComingSoon /> },
             { path: "account/salary", element: <ComingSoon /> },
