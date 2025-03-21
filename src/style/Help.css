@@ -1,0 +1,66 @@
+.help-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #2575fc, #6a11cb);
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+.help-content {
+    text-align: center;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.help-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #f4f4f4;
+}
+
+.help-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.help-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: center;
+}
+
+.help-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.help-card p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.help-card button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background: #6a11cb;
+    color: white;
+    cursor: pointer;
+}
+
+.help-card button:hover {
+    background: #2575fc;
+}
