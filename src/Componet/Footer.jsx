@@ -31,7 +31,7 @@ export default function Footerjsx() {
                 </ul>
 
             </div>
-            <hr  className="hrhai"/>
+            <hr className="hrhai" />
             <div className="footer-second">
                 <h4>Copyright © 2024 Unity-Bank-Of-India.com All Rights Reserved</h4>
                 <li>

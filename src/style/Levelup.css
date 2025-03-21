@@ -96,3 +96,83 @@
 .Levelup-card2 img {
     width: 450px;
 }
+
+
+
+
+
+@media only screen and (max-width: 500px) {
+
+    .Levelup-section h1 {
+        font-size: 24px;
+        border-bottom: 2px solid black;
+        font-weight: 200;
+        color: #3c3a3a;
+        width: 80%;
+        text-align: center;
+    }
+
+    .Levelup-card2 {
+        width: 100%;
+        height: 290px;
+        background-image: url("https://www1.bac-assets.com//homepage/spa-assets/images/mb_yni_bb_3034668_1440-4d2b065272ea1845378f.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-top-left-radius: 40%;
+        display: flex;
+        padding-inline: 20px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        position: relative;
+    }
+
+    .Levelup-card1 img {
+        position: absolute;
+        width: 200px;
+        z-index: -1;
+        right: 0px;
+        top: 120px;
+    }
+
+    .Levelup-card2 img {
+        position: absolute;
+        width: 250px;
+        right: 0;
+        top: 40%;
+    }
+
+    .Levelup-card1 li {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        position: absolute;
+        left: 0px;
+        top: 40px;
+    }
+    .Levelup-card1 li>p {
+        font-size: 13px;
+        color: #3c3a3a;
+        width: 320px;
+    }
+
+    .Levelup-card2 li>h3 {
+        width: 200px;
+        font-size: 15px;
+        color: white;
+        font-weight: 200;
+        position: absolute;
+        bottom: 50%;
+        left: 20px;
+    }
+    .Levelup-card1 li>h1 {
+        font-size: 24px;
+        border: none;
+        text-align: start;
+    }
+
+
+
+
+}

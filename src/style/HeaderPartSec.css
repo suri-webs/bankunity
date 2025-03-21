@@ -98,29 +98,6 @@
     font-size: 25px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .creditcard1 {
     width: 250px;
     height: 160px;
@@ -135,13 +112,13 @@
 
 @keyframes slide {
     from {
-    right: -1200px;
-       
+        right: -1200px;
+
 
     }
 
     to {
-       right: 0;
+        right: 0;
     }
 }
 
@@ -154,7 +131,7 @@
     background-size: cover;
     position: relative;
     transition: all ease .5s;
-    animation: slide 3s 1 linear;   
+    animation: slide 3s 1 linear;
 
 
 }
@@ -305,4 +282,86 @@
 
 .Headecomo-div2-anker2 img {
     width: 40px;
+}
+
+@media only screen and (max-width: 500px) {
+    .CreditCArd-slide-container {
+        width: 100%;
+        height: 27%;
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        padding: 1px;
+    }
+
+    header {
+        width: 100%;
+        height: 70vh;
+        gap: 50px;
+        padding-top: 80px;
+        
+
+    }
+
+
+    .scale {
+        width: 180px;
+        height: 120px;
+
+    }
+
+    .scale p {
+        position: absolute;
+        font-size: 11px;
+        font-weight: 550;
+        color: #585555;
+        left: 40px;
+        top: 80px;
+    }
+
+    .creditcard-details-container {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .creditcard3{
+        display: none;
+    }
+    .creditcard4{
+        display: none;
+    }
+
+
+
+    .fa-handshake-simple {
+        position: absolute;
+        left: 90px;
+        top: 50px;
+        color: #626767;
+        font-size: 25px;
+    }
+
+    .Headecomo-div{
+        display: none;
+    }
+    .card-credit{
+        display: none;
+        display: flex;
+        flex-direction: column;
+    }
+    .Grow-stock-container{
+        gap: 0;
+        justify-content: center;
+
+    }
+    .card1 img {
+        width: 20px;
+    }
+    .card1 p {
+        font-size: 11px;
+        width: 100px;
+    }
+    .Headecomo-div2{
+        display: none;
+    }
 }

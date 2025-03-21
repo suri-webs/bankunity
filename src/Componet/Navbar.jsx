@@ -16,103 +16,110 @@ export default function Navbar() {
             <div className="sec-nav">
                 <ul>
 
-                    <ul className="Sec-ankerul">
-                        <li>
-                            <a href="#" className="Secnavanker">Account </a>
-                            <i class="fa-solid fa-angle-down"></i>
-                        </li>
-                        <li className="Sec-anker-ul-li">
-                            <a href="#">Saving Account</a>
-                            <hr />
-                            <a href="#">Salary Account</a>
-                            <hr />
-                            <a href="#">Current Account</a>
+                    <div className="div-sec">
+
+                        <ul className="Sec-ankerul">
+                            <li>
+                                <a href="#" className="Secnavanker">Account </a>
+                                <i class="fa-solid fa-angle-down"></i>
+                            </li>
+                            <li className="Sec-anker-ul-li">
+                                <a href="#">Saving Account</a>
+                                <hr />
+                                <a href="#">Salary Account</a>
+                                <hr />
+                                <a href="#">Current Account</a>
 
 
 
-                        </li>
-                    </ul>
+                            </li>
+                        </ul>
 
-                    <hr />
+                        <hr />
 
-                    <ul className="Sec-ankerul">
-                        <li>
-                            <a href="#" className="Secnavanker">Deposits </a>
-                            <i class="fa-solid fa-angle-down"></i>
-                        </li>
-                        <li className="Sec-anker-ul-li">
-                            <a href="#">Fixed Deposit</a>
-                            <hr />
-                            <a href="#"> Recurring Deposit</a>
-                      
-
-
-                        </li>
-                    </ul>
+                        <ul className="Sec-ankerul">
+                            <li>
+                                <a href="#" className="Secnavanker">Deposits </a>
+                                <i class="fa-solid fa-angle-down"></i>
+                            </li>
+                            <li className="Sec-anker-ul-li">
+                                <a href="#">Fixed Deposit</a>
+                                <hr />
+                                <a href="#"> Recurring Deposit</a>
 
 
-                    <hr />
 
-                    <ul className="Sec-ankerul">
-                        <li>
-                            <a href="#" className="Secnavanker">Payments </a>
-                            <i class="fa-solid fa-angle-down"></i>
-                        </li>
-                        <li className="Sec-anker-ul-li">
-                            <a href="#">Money Transfer</a>
-                            <hr />
-                            <a href="#">Overdue Loan Payment</a>
-                            <hr />
-                            <a href="#">Credit Card Bill Payment</a>
-                            <hr />
-
-                            <a href="#">Contactless Payments</a>
+                            </li>
+                        </ul>
 
 
-                        </li>
-                    </ul>
+                        <hr />
 
-                    <hr />
+                        <ul className="Sec-ankerul">
+                            <li>
+                                <a href="#" className="Secnavanker">Payments </a>
+                                <i class="fa-solid fa-angle-down"></i>
+                            </li>
+                            <li className="Sec-anker-ul-li">
+                                <a href="#">Money Transfer</a>
+                                <hr />
+                                <a href="#">Overdue Loan Payment</a>
+                                <hr />
+                                <a href="#">Credit Card Bill Payment</a>
+                                <hr />
 
-                    <ul className="Sec-ankerul">
-                        <li>
-                            <a href="#" className="Secnavanker">Cards </a>
-                            <i class="fa-solid fa-angle-down"></i>
-                        </li>
-                        <li className="Sec-anker-ul-li">
-                            <a href="#">Credit Cards <span>Manage Standing Instructions Mandate Hub FAQ's Mandate Hub User Guide</span></a>
-                            <hr />
-                            <a href="#">Debit Cards <span>Upgrade Debit Card Manage Standing Instructions Mandate Hub FAQ's Mandate Hub User Guide</span></a>
-                            <hr />
+                                <a href="#">Contactless Payments</a>
 
-                            <a href="#">Prepaid Cards</a>
-                            <hr />
 
-                            <a href="#">Loan on Credit Card</a>
+                            </li>
+                        </ul>
 
-                        </li>
-                    </ul>
+                        <hr />
 
-                    <hr />
+                        <ul className="Sec-ankerul">
+                            <li>
+                                <a href="#" className="Secnavanker">Cards </a>
+                                <i class="fa-solid fa-angle-down"></i>
+                            </li>
+                            <li className="Sec-anker-ul-li">
+                                <a href="#">Credit Cards <span>Manage Standing Instructions Mandate Hub FAQ's Mandate Hub User Guide</span></a>
+                                <hr />
+                                <a href="#">Debit Cards <span>Upgrade Debit Card Manage Standing Instructions Mandate Hub FAQ's Mandate Hub User Guide</span></a>
+                                <hr />
 
-                    <ul className="Sec-ankerul">
-                        <li>
-                            <a href="#" className="Secnavanker">Loans </a>
-                            <i class="fa-solid fa-angle-down"></i>
-                        </li>
-                        <li className="Sec-anker-ul-li">
-                            <a href="#">Personal Loan</a>
-                            <hr />
-                            <a href="#">Home Loans</a>
-                            <hr />
-                            <a href="#">Car Loan</a>
-                            <hr />
-                            <a href="#">Smart Loans</a>
+                                <a href="#">Prepaid Cards</a>
+                                <hr />
 
-                        </li>
-                    </ul>
+                                <a href="#">Loan on Credit Card</a>
 
-                    <hr />
+                            </li>
+                        </ul>
+
+                        <hr />
+
+                        <ul className="Sec-ankerul">
+                            <li>
+                                <a href="#" className="Secnavanker">Loans </a>
+                                <i class="fa-solid fa-angle-down"></i>
+                            </li>
+                            <li className="Sec-anker-ul-li">
+                                <a href="#">Personal Loan</a>
+                                <hr />
+                                <a href="#">Home Loans</a>
+                                <hr />
+                                <a href="#">Car Loan</a>
+                                <hr />
+                                <a href="#">Smart Loans</a>
+
+                            </li>
+                        </ul>
+
+                        <hr />
+
+                    </div>
+
+
+
 
                     <LoginComponent />
 

@@ -7,7 +7,7 @@ nav {
     gap: 30px;
     padding-inline: 40px;
     padding-block: 10px;
-    background-color: #464546;
+    background-color: #5a5b5d;
 }
 
 
@@ -32,6 +32,14 @@ img {
 }
 
 .Nav-ankar {
+    display: flex;
+    gap: 30px;
+    color: white;
+    font-size: 21px;
+    align-items: center;
+}
+
+.nonediv {
     display: flex;
     gap: 30px;
     color: white;
@@ -115,7 +123,8 @@ img {
     z-index: 99;
 
 }
-.cards-for-slide1{
+
+.cards-for-slide1 {
     display: none;
     flex-direction: column;
     justify-content: start;
@@ -125,13 +134,14 @@ img {
     position: absolute;
     top: 60px;
     z-index: 99;
-    left:-250px;
+    left: -250px;
 }
 
 
 .Navul:hover .cards-for-slide {
     display: flex;
 }
+
 .Navul:hover .cards-for-slide1 {
     display: flex;
 }
@@ -168,6 +178,7 @@ img {
 .Smallcontainer {
     display: none;
     position: relative;
+    z-index: 99;
 }
 
 .Smallcontainer i {
@@ -211,7 +222,7 @@ img {
 .login {
     width: 350px;
     height: 380px;
-    background-color: #F13033;
+    background-color: #FF464A;
     position: absolute;
     right: 50px;
     top: 150px;
@@ -223,7 +234,7 @@ img {
     justify-content: center;
     gap: 20px;
     padding: 15px;
-   
+
 
 }
 
@@ -234,7 +245,7 @@ img {
     border: none;
     padding-inline-start: 25px;
     font-size: 15px;
-  
+
 }
 
 .saveid {
@@ -275,15 +286,72 @@ img {
     color: white;
 }
 
-.login li{
+.login li {
     display: flex;
     gap: 40px;
-    
- 
+
 }
-.CreateAccount{
+
+.CreateAccount {
     color: white;
 }
-.CreateAccount:hover{
+
+.CreateAccount:hover {
     text-decoration: underline;
+}
+
+@media only screen and (max-width: 1000px) {
+    nav {
+        min-width: 100%;
+    }
+
+    .nonediv {
+        display: none;
+    }
+
+    .Smallcontainer {
+        display: flex;
+    }
+
+    .input-search {
+        width: 100%;
+        font-size: 15px;
+    }
+
+    .logo img {
+        position: relative;
+        width: 150px;
+    }
+
+    .logo a {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .input-search {
+        display: none;
+    }
+
+    nav {
+        min-width: 100%;
+        display: flex;
+        justify-content: space-between;
+        border: none;
+        padding: 0;
+        height: 80px;
+        padding-inline-end: 20px;
+    }
+
+    .search-conatiner i {
+        display: none;
+    }
+
+    .login {
+        position: absolute;
+        left: 20px;
+    }
+
+
+
 }
