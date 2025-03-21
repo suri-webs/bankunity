@@ -128,7 +128,8 @@ footer {
         width: 80%;
     }
 
-    .logo img {
+    footer .logo img {
+        width: 180px;
         position: relative;
         left: -10px;
         padding-bottom: 30px;

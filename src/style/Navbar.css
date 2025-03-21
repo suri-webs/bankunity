@@ -10,6 +10,10 @@ nav {
     background-color: #373535;
 }
 
+.fa-house-chimney {
+    width: 50px;
+    font-size: 25px;
+}
 
 img {
     width: 220px;
@@ -33,7 +37,15 @@ img {
 
 .Nav-ankar {
     display: flex;
-    gap: 30px;
+    gap: 40px;
+    color: white;
+    font-size: 21px;
+    align-items: center;
+}
+
+.nav-anker-container {
+    display: flex;
+    gap: 40px;
     color: white;
     font-size: 21px;
     align-items: center;
@@ -70,6 +82,12 @@ img {
 }
 
 .Navul-li {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.Navul-li1 {
     display: flex;
     align-items: center;
     gap: 5px;
@@ -222,7 +240,7 @@ img {
 .login {
     width: 350px;
     height: 380px;
-    background:linear-gradient(135deg, #af11cb, #25dffc);
+    background: linear-gradient(135deg, #af11cb, #25dffc);
     position: absolute;
     right: 50px;
     top: 150px;
@@ -318,17 +336,23 @@ img {
         font-size: 15px;
     }
 
-    .logo img {
-        position: relative;
-        width: 150px;
-    }
-
     .logo a {
         display: none;
+    }
+
+    nav .logo img {
+        position: relative;
+        left: -30px;
+        width: 130px;
+
     }
 }
 
 @media only screen and (max-width: 500px) {
+    .nav-anker-container {
+        display: none;
+    }
+
     .input-search {
         display: none;
     }
@@ -338,8 +362,8 @@ img {
         display: flex;
         justify-content: space-between;
         border: none;
-        padding: 0;
-        height: 80px;
+        padding: 20px;
+        height: 60px;
         padding-inline-end: 20px;
     }
 
@@ -351,6 +375,13 @@ img {
         position: absolute;
         left: 20px;
     }
+
+    .smalloncontainer {
+        display: no;
+    }
+
+
+
 
 
 

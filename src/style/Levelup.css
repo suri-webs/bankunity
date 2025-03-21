@@ -176,3 +176,11 @@
 
 
 }
+@media only screen and (max-width: 500px) {
+    .Levelup-card2 img {
+        position: absolute;
+        width: 200px;
+        right: 0;
+        top: 50%;
+    }
+}
