@@ -364,7 +364,7 @@ img {
         border: none;
         padding: 20px;
         height: 60px;
-        padding-inline-end: 20px;
+        padding-inline-end: 63px;
     }
 
     .search-conatiner i {
@@ -375,14 +375,4 @@ img {
         position: absolute;
         left: 20px;
     }
-
-    .smalloncontainer {
-        display: no;
-    }
-
-
-
-
-
-
-}
+}   

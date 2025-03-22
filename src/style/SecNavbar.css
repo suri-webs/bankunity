@@ -136,7 +136,7 @@
         display: flex;
         justify-content: space-around;
         align-items: center;
-        gap: 81px;
+        gap: 156px;
     }
 
     .Get-yourcard {
@@ -147,8 +147,18 @@
         display: none;
     }
 
-  
+    .Secnavbutton {
+        border-radius: 55px;
+        padding: 8px 20px;
+        border: none;
+        background-color: #06c5ffea;
+        color: white;
+        font-size: 14px;
+    }
+
+
 }
+
 @media only screen and (max-width: 500px) {
     .Nav-ankar {
         display: flex;
@@ -156,5 +166,49 @@
         font-size: 21px;
         align-items: center;
         gap: 5px;
+    }
+
+    .login {
+        width: 320px;
+       
+    }
+
+    .login input {
+        width: 100%;
+        height: 35px;
+    }
+
+    .saveid {
+        font-size: 14px;
+    }
+
+    .loginbutton {
+        width: 100%;
+        font-size: 15px;
+        height: 35px;
+    }
+
+    .forget {
+        text-align: center;
+        width: 50%;
+        font-size: 12px;
+
+    }
+
+    .CreateAccount {
+        text-align: center;
+        width: 50%;
+        font-size: 12px;
+
+
+    }
+
+    .login li {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+
     }
 }

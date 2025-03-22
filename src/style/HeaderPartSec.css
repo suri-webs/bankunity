@@ -305,23 +305,41 @@
 
 
     .scale {
-        width: 180px;
+        width: 170px;
         height: 120px;
 
     }
+    .visa-image{
+        width: 30px;
+    }
+    .chip-image{
+        width: 20px;
+    }
+    .fa-wifi{
+        font-size: 15px;
+    }
+    .Small-containerli{
+        position: absolute;
+        top: 50px;
+        left: -230px;
+    }
+    
 
     .scale p {
         position: absolute;
-        font-size: 11px;
         font-weight: 550;
         color: #585555;
-        left: 40px;
+        left: 35px;
         top: 80px;
     }
 
     .creditcard-details-container {
         display: flex;
         flex-direction: column;
+    }
+    .scale:hover{
+        width: 150px;
+        font-size: 15px;
     }
 
     .creditcard3 {
@@ -334,10 +352,10 @@
 
     .fa-handshake-simple {
         position: absolute;
-        left: 90px;
+        left: 75px;
         top: 50px;
         color: #626767;
-        font-size: 25px;
+        font-size: 18px;
     }
 
     .Headecomo-div {
@@ -361,7 +379,7 @@
     }
 
     .card1 p {
-        font-size: 11px;
+        font-size: 12px;
         width: 100px;
     }
 
@@ -371,5 +389,12 @@
 
     .Get-yourcard {
         display: none;
+    }
+    .scale p{
+        font-size: 10px;
+    }
+    .reciling{
+        width: 15px;
+
     }
 }

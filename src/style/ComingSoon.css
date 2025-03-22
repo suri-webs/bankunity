@@ -32,6 +32,37 @@ p {
 }
 
 @keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+    h1{
+        font-size: 2.2rem;
+    }
+    p{
+        font-size: 1.1rem;
+    }
+    .coming-soon-container {
+        text-align: center;
+        padding: 100px 20px;
+        background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+
+
+
+
 }
