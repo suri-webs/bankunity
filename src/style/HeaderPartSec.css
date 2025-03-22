@@ -338,7 +338,7 @@
         flex-direction: column;
     }
     .scale:hover{
-        width: 150px;
+        width:180px;
         font-size: 15px;
     }
 
