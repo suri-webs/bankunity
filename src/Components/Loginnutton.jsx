@@ -38,6 +38,7 @@ export default function LoginComponent() {
             {/* Login Card */}
             {showLogin && (
                 <div className="login">
+                    <h1 className="loginh1">Login your Account</h1>
                     {error && <p className="error-message">{error}</p>}
                     <input type="text" placeholder="User ID" value={userId} onChange={(e) => setUserId(e.target.value)} />
                     <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} />

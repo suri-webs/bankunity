@@ -124,6 +124,9 @@
     z-index: 99;
 
 }
+.loginh1{
+    font-size: 20px;
+}
 
 @media only screen and (max-width: 1000px) {
 
@@ -169,7 +172,7 @@
     }
 
     .login {
-        width: 320px;
+        width: 350px;
        
     }
 
@@ -191,14 +194,15 @@
     .forget {
         text-align: center;
         width: 50%;
-        font-size: 12px;
+        font-size: 14px;
 
     }
 
     .CreateAccount {
         text-align: center;
         width: 50%;
-        font-size: 12px;
+        font-size: 16px;
+        color: white;
 
 
     }
@@ -210,5 +214,8 @@
         align-items: center;
         gap: 10px;
 
+    }
+    .loginh1{
+        font-size: 20px;
     }
 }

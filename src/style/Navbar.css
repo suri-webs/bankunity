@@ -372,7 +372,8 @@ img {
     }
 
     .login {
+        box-shadow: 0 0 20px  #090909;
         position: absolute;
         left: 20px;
     }
-}   
+}
