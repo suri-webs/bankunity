@@ -14,45 +14,21 @@ import Account from "./Account"
 import Deposit from "./Deposit"
 import Payments from "./Payment"
 import CreditCard from "./CreditCArd"
+import AccountHolderPage from "./Holder"
 
 export default function Main_container() {
     return (
         <main>
 
             {/* home  ---- */}
-
+            {/* 
             <Navbar />
             <HeaderJSx />
             <Offercomponet />
             <Levelup />
-            <Footerjsx />
+            <Footerjsx /> */}
 
-
-
-
-            {/* first row links */}
-
-            {/* <Aboutus /> */}
-            {/* <ContactUs /> */}
-            {/* <Help />  */}
-            {/* <Customer /> */}
-
-            {/* second row links */}
-
-            {/* <Account /> */}
-            {/* <Deposit /> */}
-            {/* <Payments /> */}
-            {/* <CreditCard /> */}
-            {/* <LoanDetails /> */}
-
-
-
-
-
-
-
-
-
+            <AccountHolderPage />
 
         </main>
     )

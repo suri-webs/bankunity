@@ -26,40 +26,26 @@ export default function Offercomponet() {
 
     ]
 
-
     return (
-
         <section className="financial-goals-section">
             <ul className="financial-goals-ul">
                 <h1>Your financial goals matter</h1>
                 <p>We can help you achieve them through Better Money Habits® financial education and programs that make communities stronger.</p>
             </ul>
             <div className="financial-goals-container2">
-
                 {
                     carddata.map((data) => {
                         return (
-
                             <div className="Family-card">
                                 <img src={data.img} alt="" />
-
                                 <li className="li-container">
                                     {data.i}
                                     <a href="" className="box-anker">{data.anker}</a>
                                 </li>
-
                             </div>
                         )
                     })
-
-
                 }
-
-
-
-
-
-
             </div>
             <ul className="financial-goals-ul">
                 <p>Explore more topics and build your financial know‑how.</p>

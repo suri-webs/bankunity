@@ -16,6 +16,7 @@ import { CreditCardPage } from "./pages/CreditCard";
 import { LoanDetailsPage } from "./pages/LoanDetails";
 import { ErrorPage } from "./pages/Error";
 import ComingSoon from "./Components/ComingSoon";
+import { AccountHolder } from "./pages/Accholder";
 
 // App Layout Component
 export const AppLayout = () => {
@@ -36,6 +37,7 @@ export const AppRouter = createBrowserRouter([
         errorElement: <ErrorPage />,
         children: [
             { path: "/", element: <Home /> },
+            { path: 'AccountHolderPage', element: <AccountHolder /> },
             { path: "about", element: <AboutPage /> },
             { path: "contact", element: <ContactPage /> },
             { path: "help", element: <HelpPage /> },

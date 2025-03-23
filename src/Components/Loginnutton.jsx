@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "../style/Navbar.css";
+import { Link } from "react-router-dom";
 
 export default function LoginComponent() {
     const [showLogin, setShowLogin] = useState(false);
@@ -22,6 +23,8 @@ export default function LoginComponent() {
         } else {
             setError("Invalid credentials");
             alert("Invalid credentials");
+            setUserId("")
+            setPassword("")
         }
     };
 
@@ -46,7 +49,7 @@ export default function LoginComponent() {
                         <i className="fa-regular fa-thumbs-up"></i>
                         {saved ? "ID Saved" : "Save ID"}
                     </button>
-                    <button className="loginbutton" type="submit" onClick={handleLogin}> Login </button>
+                    <Link to='/AccountHolderPage' className="loginbutton" type="submit" onClick={handleLogin}> Login </Link>
                     <li>
                         <a href="#" className="forget">Forgot ID/Password?</a>
                         <a href="#" className="CreateAccount">Create Account</a>

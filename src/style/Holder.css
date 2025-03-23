@@ -1,0 +1,59 @@
+
+.holder{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #af11cb, #25dffc);
+}
+.container {
+    width: 90%;
+    padding: 20px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #af11cb, #25dffc);
+    box-shadow: 0 0 10px #333;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.card {
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #252525;
+}
+
+p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.transactions table {
+    width: 100%;
+    height: 40px;
+    padding: 20px;
+    border-collapse: collapse;
+    
+}
+
+.transactions td {
+    border: 1px solid #dddddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.transactions th {
+    height: 40px;
+    background-color: #007bff;
+    color: white;
+}
+
+.transactions tr:nth-child(even) {
+    height: 40px;
+    background-color: #f9f9f9;
+}

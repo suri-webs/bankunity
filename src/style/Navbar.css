@@ -289,6 +289,9 @@ img {
     font-size: 18px;
     background-color: white;
     color: rgb(65, 65, 65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .forget {
